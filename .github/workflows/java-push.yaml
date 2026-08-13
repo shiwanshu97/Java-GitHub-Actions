@@ -18,7 +18,7 @@ jobs:
           java-version:  '17'
 
       - name: check Java Version
-        run:  java-version
+        run:  java -version
 
       - name: compile Java Version
         run:  javac HelloWorld.java
